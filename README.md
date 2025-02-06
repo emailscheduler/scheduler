@@ -17,8 +17,8 @@ This Python script extracts and manages meeting requests from email using OpenAI
 ## Installation
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-repo/meeting-scheduler.git
-   cd meeting-scheduler
+   git clone https://github.com/emailscheduler/scheduler.git
+   cd scheduler
    ```
 2. Install dependencies:
    ```sh
@@ -33,12 +33,18 @@ This Python script extracts and manages meeting requests from email using OpenAI
 ## Usage
 Run the script to authenticate and process emails:
 ```sh
-python main.py
+python main.py "<YOUR NAME HERE>"
+```
+
+## Testing
+Run unit tests with:
+```sh
+python -m unittest discover tests
 ```
 
 ## Configuration
 Set your OpenAI API key as an environment variable:
 ```sh
-export OPENAI_API_KEY='your-api-key'
+export OPENAI_API_KEY='<YOUR API KEY HERE>'
 ```
 
